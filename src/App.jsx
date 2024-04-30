@@ -19,7 +19,15 @@ function App() {
 
   return (
     <>
-    <Button></Button>
+    <Button text={"123"} type={"DEFAULT"} onClick={()=>{
+      console.log("123번 버튼 클릭")
+    }}/>
+    <Button text={"123"} type={"POSITIVE"} onClick={()=>{
+      console.log("123번 버튼 클릭")
+    }}/>
+    <Button text={"123"} type={"NEGATIVE"} onClick={()=>{
+      console.log("123번 버튼 클릭")
+    }}/>
     <Routes>
       <Route path="/" element={<Home/>}/>
       <Route path="/new" element={<New/>}/>
