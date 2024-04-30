@@ -1,7 +1,7 @@
 const New = () => {
     return(
         <div>
-            new
+            neww
         </div>
     )
 }
