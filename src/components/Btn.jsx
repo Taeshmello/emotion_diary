@@ -1,5 +1,5 @@
 import "./Btn.css"
-const Button = ({ text, type, onClick }) => {
+const Btn = ({ text, type, onClick }) => {
     return <button onClick={onClick} className={`Button Button_${type}`}
     
     >
@@ -7,4 +7,4 @@ const Button = ({ text, type, onClick }) => {
     </button>
 }
 
-export default Button;
+export default Btn;
